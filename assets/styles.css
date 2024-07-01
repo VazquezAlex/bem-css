@@ -1,0 +1,30 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 16px;
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+.card__header {
+    font-size: 1.5em;
+    margin-bottom: 8px;
+}
+
+.card__content {
+    font-size: 1em;
+    margin-bottom: 8px;
+}
+
+.card__footer {
+    text-align: right;
+}
+
+.card--highlighted {
+    background-color: #f0f8ff;
+    border-color: #00f;
+}
+
+.card__header--large {
+    font-size: 2em;
+}
